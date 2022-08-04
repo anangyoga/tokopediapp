@@ -1,8 +1,14 @@
 .container {
   padding: 0 2rem;
 }
-
 .main {
+  max-width: 400px;
+  min-height: 100vh;
+  border: 1px solid black;
+  margin: auto;
+}
+
+/* .main {
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -105,7 +111,7 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
-}
+} */
 
 @media (max-width: 600px) {
   .grid {
