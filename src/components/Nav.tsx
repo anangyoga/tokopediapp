@@ -13,7 +13,7 @@ import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
-  borderRadius: theme.shape.borderRadius,
+  borderRadius: "10px",
   backgroundColor: alpha(theme.palette.common.white, 1),
   marginRight: theme.spacing(1),
   marginLeft: 15,
@@ -53,7 +53,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 export default function PrimarySearchAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed" sx={{ maxWidth: 400, margin: "auto", top: 0, right: 0, left: 0, backgroundColor: "#50C878", maxHeight: 57, boxShadow: "none" }}>
+      <AppBar position="fixed" sx={{ maxWidth: 400, margin: "auto", top: 0, right: 0, left: 0, backgroundColor: "#04cf71", maxHeight: 57, boxShadow: "none" }}>
         <Toolbar disableGutters>
           <Search>
             <SearchIconWrapper>

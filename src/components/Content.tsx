@@ -1,12 +1,17 @@
+import { Box } from "@mui/material";
+import Location from "./Location";
+
 const Content = () => {
   return (
-    <>
+    <Box sx={{ marginTop: 7 }}>
+      <Location />
+
       <p>
-        Chukwuemeka, who starred in England Under-19 European Championship triumph in July, has agreed a six-year deal. He was left out of Villas pre-season tour to Australia after refusing to sign a new contract. Its been quite hectic but
-        I couldnt get Chelsea out of my head the last few days so Im just happy and relieved that its all done, said Chukwuemeka. Im so excited and just cant wait to get on the pitch, meet all the players and try to win games and trophies
-        with Chelsea Chukwuemeka, who made 12 appearances for Villa last season, was contracted until the end of the 2022-23 campaign. Last month Villa boss Steven Gerrard said Chukwuemeka had not signed a contract offer which had been in
-        placefor some time He had been linked with Barcelona, AC Milan and Borussia Dortmund. Chelsea chairman Todd Boehly said: Carney is one of the most exciting young players in Europe so we are really looking forward to seeing him in
-        action at Stamford Bridge. We are delighted to be able to bring him to Chelsea and add such a talented young individual to our squad for the new season and beyond.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam modi, earum voluptatem vero voluptates deserunt in, perferendis quo molestiae eligendi optio. Nesciunt odit ratione amet alias numquam. Explicabo recusandae voluptate
+        tenetur in vitae aperiam harum blanditiis, quasi maiores deserunt quo perspiciatis quae, modi dolorum ipsum assumenda quibusdam odit molestiae eum suscipit esse quia? Incidunt laborum cumque cum adipisci, est quasi magnam!
+        Exercitationem consectetur deserunt, modi aperiam ducimus ipsum eos quas molestias tenetur quam reiciendis, incidunt quibusdam nostrum magnam. Aperiam ad eius repudiandae vitae quam laboriosam aliquid, at doloribus ipsum, quasi
+        adipisci eum enim unde aut quos magnam alias iusto! Velit? Exercitationem consectetur deserunt, modi aperiam ducimus ipsum eos quas molestias tenetur quam reiciendis, incidunt quibusdam nostrum magnam. Aperiam ad eius repudiandae
+        vitae quam laboriosam aliquid, at doloribus ipsum, quasi adipisci eum enim unde aut quos magnam alias iusto! Velit?
       </p>
       <p>
         Everton striker Dominic Calvert-Lewin could miss the opening six weeks of the Premier League season after suffering a knee injury in training. The England international, 25, missed four months last season because of a persistent
@@ -16,7 +21,7 @@ const Content = () => {
         obviously lost Richarlison. He was versatile across the front as well, Lampard said. Were very aware of the areas that we want to strengthen. Going into the first game with Salomon suspended as well makes it pretty clear that that
         might be one of the areas we look at. Everton open their Premier League campaign against Chelsea on Sunday.
       </p>
-    </>
+    </Box>
   );
 };
 
