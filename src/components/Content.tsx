@@ -1,10 +1,12 @@
 import { Box } from "@mui/material";
+import CoinsCoupon from "./CoinsCoupon";
 import Location from "./Location";
 
 const Content = () => {
   return (
     <Box sx={{ marginTop: 7 }}>
       <Location />
+      <CoinsCoupon />
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam modi, earum voluptatem vero voluptates deserunt in, perferendis quo molestiae eligendi optio. Nesciunt odit ratione amet alias numquam. Explicabo recusandae voluptate
