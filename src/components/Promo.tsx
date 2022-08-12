@@ -1,11 +1,21 @@
 import React from "react";
 import { Box, Paper } from "@mui/material";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
 import "swiper/css";
 
 const Promo = () => {
   return (
-    <Swiper scrollbar={{ draggable: true }} slidesPerView={1.01} style={{ marginTop: 10, paddingLeft: 10 }}>
+    <Swiper
+      modules={[Autoplay]}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      scrollbar={{ draggable: true }}
+      slidesPerView={1.01}
+      style={{ marginTop: 10, paddingLeft: 10 }}
+    >
       <Box sx={{ display: "flex" }}>
         <SwiperSlide>
           <Paper elevation={2} sx={{ cursor: "pointer", backgroundColor: "yellow", width: "90%", height: 100 }} />
