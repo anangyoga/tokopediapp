@@ -2,6 +2,7 @@ import { Box } from "@mui/material";
 import CategoryCarousel from "./CategoryCarousel";
 import CoinsCoupon from "./CoinsCoupon";
 import Location from "./Location";
+import Promo from "./Promo";
 
 const Content = () => {
   return (
@@ -9,6 +10,7 @@ const Content = () => {
       <Location />
       <CoinsCoupon />
       <CategoryCarousel />
+      <Promo />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam modi, earum voluptatem vero voluptates deserunt in, perferendis quo molestiae eligendi optio. Nesciunt odit ratione amet alias numquam. Explicabo recusandae voluptate
         tenetur in vitae aperiam harum blanditiis, quasi maiores deserunt quo perspiciatis quae, modi dolorum ipsum assumenda quibusdam odit molestiae eum suscipit esse quia? Incidunt laborum cumque cum adipisci, est quasi magnam!
