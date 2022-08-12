@@ -54,7 +54,7 @@ const CategoryCarousel = () => {
     },
   ];
   return (
-    <Swiper scrollbar={{ draggable: true }} slidesPerView={5.5} style={{ marginTop: 24 }}>
+    <Swiper scrollbar={{ draggable: true }} slidesPerView={5.5} style={{ marginTop: 30 }}>
       <Box sx={{ maxWidth: 70, maxHeight: 70, display: "flex", gap: 3, paddingLeft: 1 }}>
         {categories.map((category) => (
           <SwiperSlide key={category.name}>
