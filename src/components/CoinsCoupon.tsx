@@ -7,7 +7,7 @@ const CoinsCoupon = () => {
   return (
     <Box sx={{ backgroundColor: "#04cf71", minHeight: 34, borderBottomLeftRadius: "100%", borderBottomRightRadius: "100%", padding: 1, position: "relative" }}>
       <Paper elevation={3} sx={{ width: "95%", margin: "auto", display: "flex", alignItems: "center", padding: 1, position: "absolute", zIndex: 100, top: 10, right: 0, left: 0 }}>
-        <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", paddingLeft: 1 }}>
+        <Box sx={{ cursor: "pointer", display: "flex", justifyContent: "center", alignItems: "center", paddingLeft: 1 }}>
           <AccountBalanceWalletOutlinedIcon fontSize="small" />
           <Box sx={{ paddingLeft: 1 }}>
             <Typography sx={{ fontSize: 12, fontWeight: 700, lineHeight: 1 }} component="p">
@@ -18,7 +18,7 @@ const CoinsCoupon = () => {
             </Typography>
           </Box>
         </Box>
-        <Box sx={{ display: "flex", flexGrow: 0.5, justifyContent: "center", alignItems: "center" }}>
+        <Box sx={{ cursor: "pointer", display: "flex", flexGrow: 0.5, justifyContent: "center", alignItems: "center" }}>
           <HexagonOutlinedIcon fontSize="small" />
           <Box sx={{ paddingLeft: 1 }}>
             <Typography sx={{ fontSize: 12, fontWeight: 700, lineHeight: 1 }} component="p">
